@@ -9,8 +9,8 @@ We recommend using [Conda](https://docs.conda.io/projects/miniconda) or the offi
 ```sh
 git clone https://github.com/microsoft/FILM.git
 cd FILM
-conda create -n LEMA python=3.10.11
-conda activate LEMA
+conda create -n FILM python=3.10.11
+conda activate FILM
 pip install torch==2.0.1 # cuda11.7 and cudnn8
 pip install -r requirements.txt
 ```
