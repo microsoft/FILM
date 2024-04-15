@@ -47,7 +47,7 @@ We provide our generation results in `./VaLProbing-32K/results/`.
 **Step 3: Plot.**
 
 Run `plot.py` to reproduce the Figure 1 in our paper.
-Note that the exasmples in `*_32k_skip_list.json` are skipped during evaluation due to the ambiguity in the context (i.e., the retrieval keyword is mentioned more than one time in the context).
+Note that the examples in `*_32k_skip_list.json` are skipped during evaluation due to the ambiguity in the context (i.e., the retrieval keyword is mentioned more than one time in the context).
 The figure is saved under the `./VaLProbing-32K/figures/`.
 ```bash
 python plot.py
