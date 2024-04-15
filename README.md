@@ -1,6 +1,14 @@
 # FILM: Make Your LLM Fully Utilize the Context
 
-Coming soon.
+<p align="center">
+   🤗 <a href="https://huggingface.co/In2Training/FILM-7B" target="_blank">[Model]</a> • 📃 <a href="https://arxiv.org/abs/xxx" target="_blank">[Paper]</a> • ⚓ <a href="https://huggingface.co/datasets/In2Training/VaLProbing-32K" target="_blank">[VaLProbing-32K]</a>
+</p>
+
+This is the official repo for the paper *Make Your LLM Fully Utilize the Context*.
+This repo can help you to reproduce the results of **FILM-7B**, a 32K-context LLM that overcomes the lost-in-the-middle problem on [VaLProbing-32K](https://huggingface.co/datasets/In2Training/VaLProbing-32K/).
+FILM-7B trained from Mistral-7B-Instruct-v0.2 by applying Information-Intensie (In2) Training.
+FILM-7B achieves SOTA-level performance on real-world long-context tasks among ~7B size LLMs and does not compromise the short-context performance.
+
 
 ## Setup
 
@@ -14,6 +22,42 @@ conda activate FILM
 pip install torch==2.0.1 # cuda11.7 and cudnn8
 pip install -r requirements.txt
 ```
+
+## Model Usage
+
+The system tempelate for FILM-7B:
+```text
+[INST] Below is a context and an instruction. Based on the information provided in the context, write a response for the instruction.
+
+### Context:
+{YOUR LONG CONTEXT}
+
+### Instruction:
+{YOUR QUESTION & INSTRUCTION} [/INST]
+```
+
+## Probing Results
+
+To reproduce the results on our VaL Probing, see the guidance in [VaLProbing](./VaLProbing).
+
+<p align="center">
+    <img src="./figures/probing_results.png" width="800">
+    <br>
+</p>
+
+## Real-World Long-Context Tasks
+
+<p align="center">
+    <img src="./figures/real_world_long.png" width="800">
+    <br>
+</p>
+
+## Short-Context Tasks
+
+<p align="center">
+    <img src="./figures/short.png" width="800">
+    <br>
+</p>
 
 ## Contributing
 
