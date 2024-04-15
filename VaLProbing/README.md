@@ -42,7 +42,7 @@ python ../vllm_inference/vllm_inference.py --model_path In2Training/FILM-7B \
     --tensor_parallel_size 8
 ```
 
-We provide our generation results in `./VaLProbing-32K/results/`.
+We provide our generation results in `./VaLProbing-32K/results/`, including FILM-7B, Mistral-7B-Instruct-v0.2, and GPT-4-Turbo.
 
 **Step 3: Plot.**
 
