@@ -7,7 +7,7 @@
 This is the official repo for the paper *Make Your LLM Fully Utilize the Context*.
 This repo can help you to reproduce the results of **FILM-7B**, a 32K-context LLM that overcomes the lost-in-the-middle problem.
 FILM-7B is trained from Mistral-7B-Instruct-v0.2 by applying Information-Intensie (In2) Training.
-FILM-7B achieves SOTA-level performance on real-world long-context tasks among ~7B size LLMs and does not compromise the short-context performance.
+FILM-7B achieves near-perfect performance on probing tasks, SOTA-level performance on real-world long-context tasks among ~7B size LLMs, and does not compromise the short-context performance.
 
 
 ## Setup
