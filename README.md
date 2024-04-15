@@ -2,6 +2,18 @@
 
 Coming soon.
 
+## Setup
+
+We recommend using [Conda](https://docs.conda.io/projects/miniconda) or the official [Pytorch Docker](https://hub.docker.com/layers/pytorch/pytorch/2.0.1-cuda11.7-cudnn8-devel/images/sha256-4f66166dd757752a6a6a9284686b4078e92337cd9d12d2e14d2d46274dfa9048?context=explore) to build up the environment.
+
+```sh
+git clone https://github.com/microsoft/LEMA.git
+cd LEMA
+conda create -n LEMA python=3.10.11
+conda activate LEMA
+pip install torch==2.0.1 # cuda11.7 and cudnn8
+pip install -r requirements.txt
+```
 
 ## Contributing
 
