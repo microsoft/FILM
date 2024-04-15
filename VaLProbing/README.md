@@ -1,6 +1,6 @@
 ## VaL Probing
 
-The following guidance will help you to reproduce our results on VaL Probing mentioned in the paper and construct your own probing data.
+The following guidance will help you to reproduce our results on VaL Probing mentioned in the paper or construct your own probing data.
 
 ### To Reproduce Our Results
 
