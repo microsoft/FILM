@@ -6,7 +6,7 @@ The following guidance will help you to reproduce our results on VaL Probing men
 
 **Step 1: Download Data.**
 
-The three probing tasks mentioned in our paper are contained in [https://huggingface.co/datasets/In2Training/VaLProbing-32K/](https://huggingface.co/datasets/In2Training/VaLProbing-32K/).
+Our synthesized data for the three probing tasks mentioned in the paper are contained in [https://huggingface.co/datasets/In2Training/VaLProbing-32K/](https://huggingface.co/datasets/In2Training/VaLProbing-32K/).
 Download the data locally for the later inference and plotting stage.
 ```bash
 python download.py
