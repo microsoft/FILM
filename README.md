@@ -41,7 +41,7 @@ The system tempelate for FILM-7B:
 To reproduce the results on our VaL Probing, see the guidance in [VaLProbing](./VaLProbing).
 
 <p align="center">
-    <img src="./figures/probing_results.png" width="800">
+    <img src="./figures/probing_results_new.png" width="800">
     <br>
 </p>
 
