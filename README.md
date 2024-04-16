@@ -47,6 +47,8 @@ To reproduce the results on our VaL Probing, see the guidance in [VaLProbing](./
 
 ## Real-World Long-Context Tasks
 
+To reproduce the results on real-world long-context tasks, see the guidance in [real_world_long](./real_world_long).
+
 <p align="center">
     <img src="./figures/real_world_long.png" width="800">
     <br>
