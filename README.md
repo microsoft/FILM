@@ -27,13 +27,14 @@ pip install -r requirements.txt
 
 The system tempelate for FILM-7B:
 ```text
-[INST] Below is a context and an instruction. Based on the information provided in the context, write a response for the instruction.
+'''[INST] Below is a context and an instruction. Based on the information provided in the context, write a response for the instruction.
 
 ### Context:
 {YOUR LONG CONTEXT}
 
 ### Instruction:
 {YOUR QUESTION & INSTRUCTION} [/INST]
+'''
 ```
 
 ## Probing Results
