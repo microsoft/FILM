@@ -56,6 +56,8 @@ To reproduce the results on real-world long-context tasks, see the guidance in [
 
 ## Short-Context Tasks
 
+To reproduce the results on short-context tasks, see the guidance in [short_tasks](./short_tasks).
+
 <p align="center">
     <img src="./figures/short.png" width="800">
     <br>
