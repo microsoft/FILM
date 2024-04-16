@@ -33,3 +33,4 @@ func_timeout
 protobuf==3.20.1
 azureml-sdk
 pyarrow==8.0.0
+rouge
