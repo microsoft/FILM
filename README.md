@@ -1,8 +1,6 @@
 # FILM: Make Your LLM Fully Utilize the Context
 
-<p align="center">
-   🤗 <a href="https://huggingface.co/In2Training/FILM-7B" target="_blank">[Model]</a> • 📃 <a href="https://arxiv.org/abs/xxx" target="_blank">[Paper]</a> • ⚓ <a href="https://huggingface.co/datasets/In2Training/VaLProbing-32K" target="_blank">[VaLProbing-32K]</a>
-</p>
+**Model and paper are coming soon ...**
 
 This is the official repo for the paper *Make Your LLM Fully Utilize the Context*.
 This repo can help you to reproduce the results of **FILM-7B, a 32K-context LLM that overcomes the lost-in-the-middle problem**.
