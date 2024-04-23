@@ -1,6 +1,6 @@
 # FILM: Make Your LLM Fully Utilize the Context
 
-**Model and paper are coming soon ...**
+*Model and paper are coming soon ...*
 
 This is the official repo for the paper *Make Your LLM Fully Utilize the Context*.
 This repo can help you to reproduce the results of **FILM-7B, a 32K-context LLM that overcomes the lost-in-the-middle problem**.
