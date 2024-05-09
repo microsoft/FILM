@@ -1,7 +1,7 @@
 # FILM: Make Your LLM Fully Utilize the Context
 
-This is the official repo for the paper *Make Your LLM Fully Utilize the Context*.
-This repo can help you to reproduce the results of **FILM-7B, a 32K-context LLM that overcomes the lost-in-the-middle problem**.
+This is the official repo for the paper [Make Your LLM Fully Utilize the Context](https://arxiv.org/abs/2404.16811).
+This repo can help you to reproduce the results of **🤗[FILM-7B](https://huggingface.co/In2Training/FILM-7B), a 32K-context LLM that overcomes the lost-in-the-middle problem**.
 FILM-7B is trained from Mistral-7B-Instruct-v0.2 by applying Information-Intensie (In2) Training.
 FILM-7B achieves near-perfect performance on probing tasks, SOTA-level performance on real-world long-context tasks among ~7B size LLMs, and does not compromise the short-context performance.
 
@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ## Model Usage
 
-The system tempelate for [FILM-7B](https://huggingface.co/In2Training/FILM-7B):
+The system tempelate for FILM-7B:
 ```text
 '''[INST] Below is a context and an instruction. Based on the information provided in the context, write a response for the instruction.
 
