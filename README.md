@@ -1,11 +1,11 @@
 # FILM: Make Your LLM Fully Utilize the Context
 
-*Note: The model is under internal review. We will release it ASAP.*
-
 This is the official repo for the paper *Make Your LLM Fully Utilize the Context*.
 This repo can help you to reproduce the results of **FILM-7B, a 32K-context LLM that overcomes the lost-in-the-middle problem**.
 FILM-7B is trained from Mistral-7B-Instruct-v0.2 by applying Information-Intensie (In2) Training.
 FILM-7B achieves near-perfect performance on probing tasks, SOTA-level performance on real-world long-context tasks among ~7B size LLMs, and does not compromise the short-context performance.
+
+Disclaimer: This repo is strictly for research purposes, and not an official product or service from Microsoft.
 
 
 ## Setup
@@ -61,6 +61,18 @@ To reproduce the results on short-context tasks, see the guidance in [short_task
     <img src="./figures/short.png" width="800">
     <br>
 </p>
+
+## 📝 Citation
+```
+@misc{an2024make,
+      title={Make Your LLM Fully Utilize the Context}, 
+      author={Shengnan An and Zexiong Ma and Zeqi Lin and Nanning Zheng and Jian-Guang Lou},
+      year={2024},
+      eprint={2404.16811},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
 
 ## Contributing
 
