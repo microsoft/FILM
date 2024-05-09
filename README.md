@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 ## Model Usage
 
-The system tempelate for FILM-7B:
+The system tempelate for [FILM-7B](https://huggingface.co/In2Training/FILM-7B):
 ```text
 '''[INST] Below is a context and an instruction. Based on the information provided in the context, write a response for the instruction.
 
