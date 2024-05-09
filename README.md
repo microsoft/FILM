@@ -1,7 +1,11 @@
 # FILM: Make Your LLM Fully Utilize the Context
 
-This is the official repo for the paper [Make Your LLM Fully Utilize the Context](https://arxiv.org/abs/2404.16811).
-This repo can help you to reproduce the results of **🤗[FILM-7B](https://huggingface.co/In2Training/FILM-7B), a 32K-context LLM that overcomes the lost-in-the-middle problem**.
+<p align="center">
+   🤗 <a href="https://huggingface.co/In2Training/FILM-7B" target="_blank">[Model]</a> • 📃 <a href="https://arxiv.org/abs/2404.16811" target="_blank">[Paper]</a> • ⚓ <a href="https://huggingface.co/datasets/In2Training/VaLProbing-32K" target="_blank">[VaLProbing-32K]</a>
+</p>
+
+This is the official repo for the paper *Make Your LLM Fully Utilize the Context*.
+This repo can help you to reproduce the results of **FILM-7B, a 32K-context LLM that overcomes the lost-in-the-middle problem**.
 FILM-7B is trained from Mistral-7B-Instruct-v0.2 by applying Information-Intensie (In2) Training.
 FILM-7B achieves near-perfect performance on probing tasks, SOTA-level performance on real-world long-context tasks among ~7B size LLMs, and does not compromise the short-context performance.
 
